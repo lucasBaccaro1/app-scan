@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">scan-app</string>
+
+    <string name="shr_button_cancel">Cancelar</string>
+    <string name="shr_button_next">Continuar</string>
+    <string name="shr_hint_password">Contraseña</string>
+    <string name="shr_hint_username">Operador</string>
+</resources>

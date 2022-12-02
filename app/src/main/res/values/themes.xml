@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Scanapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Status bar color. -->
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+    </style>
+
+    <style name="Widget.Gob.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">@color/primary_dark</item>
+    </style>
+
+    <style name="Widget.Gob.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+</resources>
